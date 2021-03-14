@@ -1,0 +1,13 @@
+2020-12-22T23:48:43+01:00
+Running ./benchmarks
+Run on (4 X 2496 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x4)
+  L1 Instruction 32 KiB (x4)
+  L2 Unified 256 KiB (x4)
+  L3 Unified 6144 KiB (x4)
+Load Average: 0.59, 0.65, 0.61
+name,iterations,real_time,cpu_time,time_unit,bytes_per_second,items_per_second,label,error_occurred,error_message
+"medium_LessThanOperator",963296345,0.651868,0.650016,ns,,,,,
+"medium_EqualityOperator",739016096,0.962309,0.956969,ns,,,,,
+"medium_Hash",14038469,49.6734,49.594,ns,,,,,
