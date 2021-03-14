@@ -48,8 +48,8 @@ int main()
         cout<<"Dolano 15 i podjeto probe zmiany nazwy plynu."<<endl;
         warehouse.setLiquidName("azot");
     }
-    catch(const char* s) {
-        cout<<s<<endl;
+    catch(std::runtime_error &e) {
+        cout << e.what() << endl;
         cout << "Nazwa plynu po nieudanej probie zmiany: " << warehouse.getLiquidName() << endl << endl;
     }
 

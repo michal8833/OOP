@@ -29,7 +29,7 @@ void LiquidContainer::setLiquidName(std::string liquidName) {
         this->liquidName = liquidName;
     }
     else {
-        throw "Zmiana nazwy plynu niedozwolona.";
+        throw std::runtime_error("Zmiana nazwy plynu niedozwolona.");
     }
 }
 
