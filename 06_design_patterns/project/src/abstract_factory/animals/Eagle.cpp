@@ -1,7 +1,6 @@
 #include <abstract_factory/animals/Eagle.h>
 #include <iostream>
 
-
 abstractFactory::animals::Eagle::Eagle(double wingspan) : wingspan(wingspan) {}
 
 void abstractFactory::animals::Eagle::print() {

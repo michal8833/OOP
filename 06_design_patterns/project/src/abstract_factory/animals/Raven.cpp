@@ -1,8 +1,8 @@
-#include <abstract_factory/animals/Sparrow.h>
+#include <abstract_factory/animals/Raven.h>
 #include <iostream>
 
-abstractFactory::animals::Sparrow::Sparrow(double wingspan) : wingspan(wingspan) {}
+abstractFactory::animals::Raven::Raven(double wingspan) : wingspan(wingspan) {}
 
-void abstractFactory::animals::Sparrow::print() {
-    std::cout << "abstractFactory::animals::Sparrow{wingspan: " << wingspan << "}" << std::endl;
+void abstractFactory::animals::Raven::print() {
+    std::cout << "abstractFactory::animals::Raven{wingspan: " << wingspan << "}" << std::endl;
 }
